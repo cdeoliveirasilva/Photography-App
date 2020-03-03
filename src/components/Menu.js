@@ -5,7 +5,8 @@ export default class Menu extends Component {
   render() {
     return (
       <div className="App-menu">
-        <h2>categories</h2>
+        <p>This is a gallery app to practice a bit with React.js</p>
+        <h2>Choose a category for a selection of random pictures</h2>
         <Link className="button1 bouncy" to="/photography/random">
           {" "}
           Misc

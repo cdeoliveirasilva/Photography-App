@@ -59,8 +59,9 @@ export default class PageContainer extends Component {
         />
 
         <Feed pictures={this.state.pictures} className="App-feed" />
-        <LikeCounter className="App-likeCounter" />
 
+        <LikeCounter className="App-likeCounter" />
+        <p>(this like counter does not store data)</p>
         <Footer className="App-footer" />
       </div>
     );

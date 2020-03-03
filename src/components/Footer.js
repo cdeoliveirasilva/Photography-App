@@ -3,7 +3,7 @@ export default class Footer extends Component {
   render() {
     return (
       <div className="App-footer">
-        <footer>made with ❤ at codaisseur</footer>
+        <footer>made with ❤ by cdeoliveirasilva</footer>
       </div>
     );
   }
